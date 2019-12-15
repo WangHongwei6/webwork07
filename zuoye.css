@@ -1,0 +1,94 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#max{
+	width: 1360px;
+	height: 463px;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+}
+ul,li{
+	list-style: none;
+}
+.box{
+	width: 1200px;
+	height: 383px;
+	margin: 10px auto;
+	position: relative;
+	overflow: hidden;
+}
+#gundongtiao{
+	background-color: #808080;
+	width: 1360px;
+	height: 20px;
+}
+#tu{
+	width: 200px;
+	float: left;	
+}
+#laba{
+	position: relative;
+	left: 180px;
+}
+#zi{
+	float: left;
+	width: 1160px;
+}
+#z{
+	color: red;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color:    ;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	display: block;
+	background-color: red;
+	color: block;
+	float: left;
+	left: 30px;
+}
+#right{
+	display: block;
+	background-color: red;
+	float: right;
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom:20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: red;		
+}
